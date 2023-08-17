@@ -1,0 +1,39 @@
+.donation-about{
+    padding: 0 2rem 1rem 2rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    text-align: justify;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+section{
+    padding: 2rem;
+}
+@media only screen and (min-width: 1500px) {
+    section{
+        padding: 2rem 12rem;
+    }
+}
+.donate-button{
+    font-size: large;
+    background-color: rgb(87, 158, 196);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 3px 6px;
+    cursor: pointer;
+}
+.donation-details{
+    text-align: center;
+}
+.bank-details>p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.bank-details>h2{
+    font-weight: bolder;
+    padding-top: 2rem;
+    text-decoration: underline;
+    font-size: 2rem;
+}
