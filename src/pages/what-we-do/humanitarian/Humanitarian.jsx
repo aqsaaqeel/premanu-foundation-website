@@ -1,11 +1,10 @@
-import "./About.css";
+import "./Humanitarian.css";
 
-// import { CardItem } from "../../components/carditem/CardItem";
-export const About = () => {
+export const Humanitarian = () => {
   return (
     <div className="about-container">
       {console.log("yoy")}
-      <h1>About Us</h1>
+      <h1>Humanitarian Response during Distasters</h1>
       <h2>Vision</h2>
       <p>{`“Empower every child of the world to become a change agent (Leader) of development.”`}</p>
       <h2>Mission</h2>
