@@ -15,6 +15,7 @@ import { EarlyChildhood } from "./pages/what-we-do/early-childhood/EarlyChildhoo
 import { HealthAndNutrition } from "./pages/what-we-do/health-and-nutrition/HealthAndNutrition";
 import { Humanitarian } from "./pages/what-we-do/humanitarian/Humanitarian";
 import { Livelihood } from "./pages/what-we-do/livelihood/Livelihood";
+import { ChildProtection } from "./pages/what-we-do/child-protection/ChildProtection";
 function App() {
   return (
     <div className="App">
@@ -34,7 +35,7 @@ function App() {
         <Route path="/health-and-nutrition" exact element ={<HealthAndNutrition/>} />
         <Route path="/humanitarian" exact element ={<Humanitarian/>} />
         <Route path="/livelihood" exact element ={<Livelihood/>} />
-
+        <Route path="/child-protection" exact element={<ChildProtection />} />
       </Routes>
       <Footer />
     </div>

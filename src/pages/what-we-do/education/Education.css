@@ -1,9 +1,21 @@
-.about-container {
+.education-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
+  margin: 4rem 8rem;
+
+}
+.education-content {
+  text-align: justify;
+  text-align-last: left; /* Reset text-align-last to left for better compatibility */
+}
+
+.education-content::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
 h1 {
   padding: 2rem;
@@ -22,23 +34,50 @@ p {
   font-size: 1.5rem;
   font-weight: lighter;
 }
-.about-li,
-.about-ul {
+.education-ul {
   display: flex;
-  /* width: 30rem; */
-  /* flex-direction: row; */
+  column-gap: 1rem;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+
 }
-.about-li {
-  padding: 3rem;
+.education-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
   margin: 1rem;
-  background-color: rgb(240, 240, 127);
+  width: 30rem;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #f0f07f;
 }
 
-@media screen and (max-width: 1200px) {
-    .about-ul{
-        display: flex;
-        flex-wrap: wrap;
-    }
+/* Style the heading */
+.education-li h3 {
+  font-size: 1.5rem; /* Adjust heading font size */
+  text-align: center; /* Center the heading */
+  text-decoration: underline;
+  margin-bottom: 1rem; /* Add some space below the heading */
+}
+
+/* Style the content */
+.education-li div {
+  font-size: 1.2rem; /* Adjust content font size */
+  text-align: center; /* Center the content */
+  line-height: 1.4; /* Increase line spacing for readability */
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .education-container {
+    margin: 2rem 2rem; /* Adjust margins for smaller screens */
+  }
+  .education-li {
+    width: 100%; /* Take full width on smaller screens */
+  }
 }

@@ -13,7 +13,7 @@ export const Cards = () => {
               src='images/img-9.jpg'
               text='Work with local schools to impart quality education'
               label='Education'
-              path='/services'
+              path='/education'
             />
             <CardItem
               src='images/img-2.jpg'

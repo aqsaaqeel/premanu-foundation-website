@@ -1,9 +1,21 @@
-.about-container {
+.education-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
+  margin: 4rem 8rem;
+
+}
+.italic-blue{
+  font-style: italic;
+  color:rgb(90, 155, 211)
+}
+
+.education-content::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
 h1 {
   padding: 2rem;
@@ -22,23 +34,13 @@ p {
   font-size: 1.5rem;
   font-weight: lighter;
 }
-.about-li,
-.about-ul {
-  display: flex;
-  /* width: 30rem; */
-  /* flex-direction: row; */
-  justify-content: center;
-  align-items: center;
-}
-.about-li {
-  padding: 3rem;
-  margin: 1rem;
-  background-color: rgb(240, 240, 127);
-}
 
-@media screen and (max-width: 1200px) {
-    .about-ul{
-        display: flex;
-        flex-wrap: wrap;
-    }
+
+
+
+@media screen and (max-width: 768px) {
+  .education-container {
+    margin: 2rem 2rem; /* Adjust margins for smaller screens */
+  }
+
 }

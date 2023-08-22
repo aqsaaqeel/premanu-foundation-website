@@ -2,31 +2,20 @@ import "./Livelihood.css";
 
 export const Livelihood = () => {
   return (
-    <div className="about-container">
-      {console.log("yoy")}
-      <h1>Livelihood</h1>
-      <h2>Vision</h2>
-      <p>{`“Empower every child of the world to become a change agent (Leader) of development.”`}</p>
-      <h2>Mission</h2>
-      <p>
-        <ul className="about-ul">
-          ​
-          <li className="about-li">
-            Organize all stakeholders on a single platform, including children,
-            community people, local level committees and institutions.
-          </li>
-          ​
-          <li className="about-li">
-            Educate and involve all stakeholders about child rights, challenges
-            and developmental barriers that children face.{" "}
-          </li>
-          ​
-          <li className="about-li">
-            Inspire all stakeholders to identify the challenges children face
-            and work together to address those challenges.
-          </li>
-        </ul>
+    <div className="education-container">
+      <h1>Health and Nutrition</h1>
+
+      <p className="education-content clear-float">
+        Family is the first social institution where a child grows, learns, and
+        socializes. Therefore, it is important that family members give enough
+        time to their children and ensure a safe childhood. It will not be
+        possible if the family is going through any financial stress. Therefore,
+        we are working with the family units also to help them find appropriate
+        livelihood opportunities.
+        
       </p>
+      <p style={{fontStyle: "italic"}}> We provide mentorship, guidance, training and
+        provide financial support to start a business.</p>
     </div>
   );
 };
