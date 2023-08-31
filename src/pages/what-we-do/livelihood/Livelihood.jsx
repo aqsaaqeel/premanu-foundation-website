@@ -3,7 +3,7 @@ import "./Livelihood.css";
 export const Livelihood = () => {
   return (
     <div className="education-container">
-      <h1>Health and Nutrition</h1>
+      <h1>Livelihood</h1>
 
       <p className="education-content clear-float">
         Family is the first social institution where a child grows, learns, and

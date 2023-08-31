@@ -35,7 +35,15 @@ p {
   margin: 1rem;
   background-color: rgb(240, 240, 127);
 }
-
+.about-ul-plain{
+  padding: 2rem;
+}
+.cards-in-humanitarian{
+  display: flex;
+  column-gap: 3rem;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
 @media screen and (max-width: 1200px) {
     .about-ul{
         display: flex;

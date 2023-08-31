@@ -17,9 +17,9 @@ export const Cards = () => {
             />
             <CardItem
               src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='No child is born to die'
               label='Health and nutrition'
-              path='/services'
+              path='/health-and-nutrition'
             />
           </ul>
           <ul className='cards__items'>
@@ -27,19 +27,25 @@ export const Cards = () => {
               src='images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Child protection'
-              path='/services'
+              path='/child-protection'
             />
             <CardItem
               src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Health and nutrition is very important'
               label='Livelihood'
-              path='/products'
+              path='/livelihood'
             />
             <CardItem
               src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              text='Humanitarian Response during Disasters'
+              label='Humanitarian'
+              path='/humanitarian'
+            />
+                        <CardItem
+              src='images/img-8.jpg'
+              text='Humanitarian Response during Disasters'
+              label='Early Childhood'
+              path='/early-childhood'
             />
           </ul>
         </div>

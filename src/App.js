@@ -3,8 +3,8 @@ import { Navbar } from "./components/navbar/Navbar";
 import "./App.css";
 import { HomePage } from "./pages/homepage/HomePage";
 import { Blogs } from "./pages/blog/Blogs";
-import { Products } from "./pages/project/Projects";
-import { Services } from "./pages/services/Services";
+import { Projects } from "./pages/project/Projects";
+// import { Services } from "./pages/services/Services";
 import { Volunteer } from "./pages/volunteer/Volunteer";
 import { Partnership } from "./pages/partnership/Partnership";
 import { About } from "./pages/about/About";
@@ -16,6 +16,9 @@ import { HealthAndNutrition } from "./pages/what-we-do/health-and-nutrition/Heal
 import { Humanitarian } from "./pages/what-we-do/humanitarian/Humanitarian";
 import { Livelihood } from "./pages/what-we-do/livelihood/Livelihood";
 import { ChildProtection } from "./pages/what-we-do/child-protection/ChildProtection";
+import { WhatWeDo } from "./pages/what-we-do/WhatWeDo";
+import { Play2Learn } from "./pages/project/play2learn/Play2Learn";
+import { SchoolAndCommunity } from "./pages/project/school&community/SchoolAndCommunity";
 function App() {
   return (
     <div className="App">
@@ -24,8 +27,8 @@ function App() {
       <Routes>
         <Route path="/" exact element={<HomePage />} />
         <Route path="/blogs" exact element={<Blogs/> } />
-        <Route path="/products" exact element={<Products/> } />
-        <Route path="/services" exact element={<Services/> } />
+        <Route path="/what-we-do" exact element={<WhatWeDo/> } />
+        <Route path="/projects" exact element={<Projects/> } />
         <Route path="/volunteer" exact element={<Volunteer/> } />
         <Route path="/partnership" exact element={<Partnership/> } />
         <Route path="/about" exact element={<About />} />
@@ -36,6 +39,9 @@ function App() {
         <Route path="/humanitarian" exact element ={<Humanitarian/>} />
         <Route path="/livelihood" exact element ={<Livelihood/>} />
         <Route path="/child-protection" exact element={<ChildProtection />} />
+        <Route path="/play2learn" exact element = {<Play2Learn />}/>
+        <Route path="/school-and-community" exact element = {<SchoolAndCommunity />}/>
+
       </Routes>
       <Footer />
     </div>
