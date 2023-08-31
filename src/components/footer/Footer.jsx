@@ -1,118 +1,90 @@
-import React from 'react';
-import './Footer.css';
-import { Button } from '../button/Button';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Footer.css";
+import { Button } from "../button/Button";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+    <div className="footer-container">
+      <section className="footer-subscription">
+        <p className="footer-subscription-heading">
+          Make a change, by being a part of Premanu Foundation
         </p>
-        <p className='footer-subscription-text'>
-        Lorem ipsum dolor sit amet
+        <p className="footer-subscription-text">
+          Make a donation or intern with us
         </p>
-        <div className='input-areas'>
+        <div className="input-areas">
           <form>
             <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
+              className="footer-input"
+              name="email"
+              type="email"
+              placeholder="Your Email"
             />
-            <Button buttonStyle='btn--outline'>Donate</Button>
+            <Button buttonStyle="btn--outline">Donate</Button>
           </form>
         </div>
       </section>
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
-          </div>
-        </div>
-        <div className='footer-link-wrapper'>
-          {/* <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div> */}
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
+      <div class="footer-links">
+        <div className="white">
+          <div>Head Office</div> <div>First Floor, divlot No. 2 Kh. No. 384/2,</div>{" "}
+          <div>Ghitorni New Delhi</div>
+          <div>South West Delhi DL 110030 IN</div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
+      <section class="social-media">
+        <div class="social-media-wrap">
+          <div class="footer-logo">
+            <Link to="/" className="social-logo">
               PREMANU FOUNDATION
-              <i class='fab fa-typo3' />
+              <i class="fab fa-typo3" />
             </Link>
           </div>
-          <small class='website-rights'>PREMANU FOUNDATION © 2020</small>
-          <div class='social-icons'>
+          <small class="website-rights">PREMANU FOUNDATION © 2020</small>
+          <div class="social-icons">
             <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
+              class="social-icon-link facebook"
+              to="/"
+              target="_blank"
+              aria-label="Facebook"
             >
-              <i class='fab fa-facebook-f' />
+              <i class="fab fa-facebook-f" />
             </Link>
             <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
+              class="social-icon-link instagram"
+              to="/"
+              target="_blank"
+              aria-label="Instagram"
             >
-              <i class='fab fa-instagram' />
+              <i class="fab fa-instagram" />
             </Link>
             <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
+              class="social-icon-link youtube"
+              to="/"
+              target="_blank"
+              aria-label="Youtube"
             >
-              <i class='fab fa-youtube' />
+              <i class="fab fa-youtube" />
             </Link>
             <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
+              class="social-icon-link twitter"
+              to="/"
+              target="_blank"
+              aria-label="Twitter"
             >
-              <i class='fab fa-twitter' />
+              <i class="fab fa-twitter" />
             </Link>
             <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
+              class="social-icon-link twitter"
+              to="/"
+              target="_blank"
+              aria-label="LinkedIn"
             >
-              <i class='fab fa-linkedin' />
+              <i class="fab fa-linkedin" />
             </Link>
           </div>
         </div>
       </section>
     </div>
   );
-}
+};
