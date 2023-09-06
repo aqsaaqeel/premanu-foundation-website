@@ -19,6 +19,8 @@ import { ChildProtection } from "./pages/what-we-do/child-protection/ChildProtec
 import { WhatWeDo } from "./pages/what-we-do/WhatWeDo";
 import { Play2Learn } from "./pages/project/play2learn/Play2Learn";
 import { SchoolAndCommunity } from "./pages/project/school&community/SchoolAndCommunity";
+import { OurEarthResponsibility } from "./pages/project/ourearth-responsibility/OurEarthResponsibility";
+import { ScholarshipProgram } from "./pages/project/scholarship-program/ScholarshipProgram";
 function App() {
   return (
     <div className="App">
@@ -41,6 +43,9 @@ function App() {
         <Route path="/child-protection" exact element={<ChildProtection />} />
         <Route path="/play2learn" exact element = {<Play2Learn />}/>
         <Route path="/school-and-community" exact element = {<SchoolAndCommunity />}/>
+        <Route path="/earth-responsibility" exact element = {<OurEarthResponsibility />}/>
+        <Route path="/premanu-scholarship" exact element = {<ScholarshipProgram />}/>
+        <Route path="/step-humanity" exact element = {<ScholarshipProgram />}/>
 
       </Routes>
       <Footer />

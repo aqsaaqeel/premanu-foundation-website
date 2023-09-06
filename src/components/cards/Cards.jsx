@@ -41,7 +41,7 @@ export const Cards = () => {
               label='Humanitarian'
               path='/humanitarian'
             />
-                        <CardItem
+            <CardItem
               src='images/img-8.jpg'
               text='Humanitarian Response during Disasters'
               label='Early Childhood'
