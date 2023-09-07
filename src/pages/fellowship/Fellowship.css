@@ -1,0 +1,39 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ .fellowship-container {
+    padding: 0 20rem;/* Adjust the padding as needed */
+  }
+  .fellowship-subcontainer {
+    padding: 2rem 5rem;/* Adjust the padding as needed */
+  }
+  .fellowship-subheading{
+    text-decoration: none;
+    text-align: center;
+  }
+  .fellowship-h3{
+    color: blue;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+  /* Center-align the heading */
+  .centered-heading {
+    text-align: center;
+  }
+  
+  /* Left-align the content */
+  .content {
+    text-align: left;
+  }
+  
+  /* Make it responsive (adjust as needed) */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 10px; /* Adjust the padding for smaller screens */
+    }
+  }
+  

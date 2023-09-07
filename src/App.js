@@ -21,6 +21,7 @@ import { Play2Learn } from "./pages/project/play2learn/Play2Learn";
 import { SchoolAndCommunity } from "./pages/project/school&community/SchoolAndCommunity";
 import { OurEarthResponsibility } from "./pages/project/ourearth-responsibility/OurEarthResponsibility";
 import { ScholarshipProgram } from "./pages/project/scholarship-program/ScholarshipProgram";
+import { Fellowship } from "./pages/fellowship/Fellowship";
 function App() {
   return (
     <div className="App">
@@ -46,6 +47,7 @@ function App() {
         <Route path="/earth-responsibility" exact element = {<OurEarthResponsibility />}/>
         <Route path="/premanu-scholarship" exact element = {<ScholarshipProgram />}/>
         <Route path="/step-humanity" exact element = {<ScholarshipProgram />}/>
+        <Route path="/fellowship" exact element = {<Fellowship />}/>
 
       </Routes>
       <Footer />
