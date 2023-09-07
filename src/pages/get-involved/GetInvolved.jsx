@@ -17,6 +17,12 @@ export const GetInvolved = () => {
               path='/services'
             />
             <CardItem
+              src='images/img-4.jpg'
+              text='How to get fellowship at Premanu Foundation'
+              label='Fellowship'
+              path='/fellowship'
+            />
+            <CardItem
               src='images/img-2.jpg'
               text='Make an impact by working with us'
               label='Volunteer & Internship'
