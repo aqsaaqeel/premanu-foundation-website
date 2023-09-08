@@ -6,6 +6,16 @@ export const About = () => {
     <div className="about-container">
       {console.log("yoy")}
       <h1>About Us</h1>
+      <p className="about-det">
+        Premanu Foundation, established in 2019 by two students from TISS (Tata
+        Institute of Social Sciences), is a rapidly growing non-profit
+        organization driven by a noble mission and unwavering commitment to
+        child rights. In a remarkably short span of time, the organisation has
+        made a significant impact, positively transforming the lives of over
+        29,000 children. While currently active in five states, our aspirations
+        transcend geographical boundaries as we envision a future where our
+        efforts know no bounds.
+      </p>
       <h2>Vision</h2>
       <p>{`“Empower every child of the world to become a change agent (Leader) of development.”`}</p>
       <h2>Mission</h2>
