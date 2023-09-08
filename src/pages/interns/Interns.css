@@ -1,0 +1,55 @@
+/* CardComponent.css */
+.interns{
+    background-color: white;
+    padding-top: 4rem;
+}
+.intern-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 50rem;
+    height: 20rem; /* Adjust the card width and height as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    transition: transform 0.2s ease-in-out;
+    /* Center the card horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  
+  .intern-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #666;
+    /* Add scrollbar for text overflow */
+    overflow: auto;
+    /* Set a fixed height to trigger the scrollbar when the content exceeds it */
+    max-height: 12rem; /* Adjust the max height as needed */
+  }
+  
+  /* Media query for responsiveness (adjust breakpoints as needed) */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Make cards full width on smaller screens */
+      margin: 10px 0;
+    }
+  }
+  

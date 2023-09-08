@@ -6,6 +6,7 @@ import { PlainCards } from "../../components/plaincards/PlainCards";
 import { About } from "../about/About";
 import { Projects } from "../project/Projects";
 import { Partners } from "../partners/Partners";
+import Interns from "../interns/Interns";
 export const HomePage = () =>{
     return(
         <div>
@@ -15,6 +16,8 @@ export const HomePage = () =>{
             <PlainCards />
             <Projects />
             <Partners />
+            <br style={{backgroundColor: "white"}}></br>
+            <Interns />
         </div>
     )
 }
