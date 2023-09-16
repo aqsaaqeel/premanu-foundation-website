@@ -38,7 +38,6 @@ export const About = () => {
           </li>
         </ul>
       </p>
-      
     </div>
   );
 };
