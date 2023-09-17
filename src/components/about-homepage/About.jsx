@@ -1,4 +1,3 @@
-import { Team } from "../../components/team/Team";
 import "./About.css";
 
 // import { CardItem } from "../../components/carditem/CardItem";
@@ -39,8 +38,6 @@ export const About = () => {
           </li>
         </ul>
       </p>
-      <h1>Our Team</h1>
-      <Team />
     </div>
   );
 };
