@@ -20,7 +20,7 @@ export const HomePage = () =>{
             <Partners />
             <Interns />
             <InternPictures />
-            <Team />
+            {/* <Team /> */}
         </div>
     )
 }

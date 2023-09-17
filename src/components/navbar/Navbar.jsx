@@ -69,7 +69,15 @@ export const Navbar = () => {
                 Projects
               </Link>
             </li>
-
+            <li className="nav-item">
+              <Link
+                to="/fellowship"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Fellowship
+              </Link>
+            </li>
             <li>
               <Link
                 to="/getinvolved"
