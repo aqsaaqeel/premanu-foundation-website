@@ -10,13 +10,13 @@ export const Cards = () => {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
+              src='images/work/Education.jpg'
               text='Work with local schools to impart quality education'
               label='Education'
               path='/education'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='images/work/HealthNutrition.jpg'
               text='No child is born to die'
               label='Health and nutrition'
               path='/health-and-nutrition'
@@ -24,26 +24,26 @@ export const Cards = () => {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='images/work/ChildProtection.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Child protection'
               path='/child-protection'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='images/work/Livelihood.png'
               text='Health and nutrition is very important'
               label='Livelihood'
               path='/livelihood'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src='images/work/Humanitarian.jpeg'
               text='Humanitarian Response during Disasters'
               label='Humanitarian'
               path='/humanitarian'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Humanitarian Response during Disasters'
+              src='images/work/EarlyChildhood.jpeg'
+              text='Early Childhood builds foundation'
               label='Early Childhood'
               path='/early-childhood'
             />
