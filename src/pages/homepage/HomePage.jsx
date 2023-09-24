@@ -8,7 +8,7 @@ import { Projects } from "../project/Projects";
 import { Partners } from "../partners/Partners";
 import Interns from "../interns/Interns";
 import { InternPictures } from "../interns/InternPictures";
-import { Team } from "../../components/team/Team";
+// import { Team } from "../../components/team/Team";
 export const HomePage = () =>{
     return(
         <div>
