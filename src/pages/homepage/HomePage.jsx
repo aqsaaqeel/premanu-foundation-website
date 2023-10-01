@@ -6,9 +6,6 @@ import { PlainCards } from "../../components/plaincards/PlainCards";
 import { About } from "../../components/about-homepage/About";
 import { Projects } from "../project/Projects";
 import { Partners } from "../partners/Partners";
-import Interns from "../interns/Interns";
-import { InternPictures } from "../interns/InternPictures";
-import { Team } from "../../components/team/Team";
 export const HomePage = () =>{
     return(
         <div>
@@ -18,9 +15,6 @@ export const HomePage = () =>{
             <PlainCards />
             <Projects />
             <Partners />
-            <Interns />
-            <InternPictures />
-            {/* <Team /> */}
         </div>
     )
 }

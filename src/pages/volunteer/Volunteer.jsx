@@ -1,4 +1,6 @@
 import "../../App.css";
+import { InternPictures } from "../interns/InternPictures";
+import Interns from "../interns/Interns";
 import "./Volunteer.css";
 export const Volunteer = () => {
   return (
@@ -12,7 +14,8 @@ export const Volunteer = () => {
           a better world through meaningful work and embark on a life-changing
           learning adventure.
         </p>
-        [Add image here]
+        <InternPictures />
+        <br style={{paddingBottom: "2rem"}}/>
         <p className="donation-about">
           At Premanu Foundation, we firmly believe that active engagement of
           civil society members is paramount for driving meaningful change and
@@ -35,6 +38,7 @@ export const Volunteer = () => {
           registration form below and embark on your journey of making a
           difference.
         </p>
+        <Interns />
         <div className="donation-details">
         </div>
       </section>
