@@ -7,17 +7,17 @@ video {
 }
 
 .hero-container {
-    background: url("../../../public/images/img-home.webp");
-  /* background: url("../public/images/img-home.jpg") center center/cover no-repeat; */
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
+    /* background: url("../public/images/img-home.jpg") center center no-repeat; */
+    background-size: cover; /* Ensure the background image covers the container */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
+
 
 .hero-container > h1{
     color: #fff;
