@@ -21,7 +21,7 @@ export const HeroSection = () => {
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
-
+//test
   useEffect(() => {
     // Create an interval to change the image every 5 seconds
     const interval = setInterval(nextImage, 5000);
